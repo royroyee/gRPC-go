@@ -3,9 +3,13 @@ gRPC example with Golang
 
 ## Reference
 - https://tutorialedge.net/golang/go-grpc-beginners-tutorial/  (ex1)
----
 
-## The most basic (refer to ex1 directory)
+---
+<br/>
+<br/>
+
+
+## Basic(refer to ex1)
 
 
 ### Install Protocol Buffer (for mac (local))
