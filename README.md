@@ -5,11 +5,12 @@ gRPC example with Golang
 - https://alnova2.tistory.com/1373
 
 ---
-<br/>
-<br/>
+#### [ex1(simple example)](https://github.com/royroyee/gRPC-go/tree/master/ex1)
+#### [ex2(simple tutorial)](https://github.com/royroyee/gRPC-go/tree/master/ex2)
 
+---
 
-## Basic(refer to ex1)
+## Basic(ex1)
 
 
 ### Install Protocol Buffer (for mac (local))
@@ -24,7 +25,7 @@ to be updated linux (ubuntu)
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
-### Define .proto ( ex1 -> helloword.proto )
+### Define .proto ( [ex1-helloword.proto](https://github.com/royroyee/gRPC-go/blob/master/ex1/gRPC-server/protos/helloworld/helloworld.proto) )
 ```
 
 syntax = "proto3";
