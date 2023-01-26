@@ -1,4 +1,4 @@
-module github.com/royroyee/gRPC-go
+module github.com/royroyee/gRPC-go/ex1
 
 go 1.19
 
@@ -8,7 +8,7 @@ require (
 	google.golang.org/protobuf v1.28.1
 )
 
-replace github.com/royroyee/gRPC-go/gRPC-server/protos/helloworld => ./gRPC-server/protos/helloworld
+replace github.com/royroyee/gRPC-go/ex1/gRPC-server/protos/helloworld => ./gRPC-server/protos/helloworld
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect

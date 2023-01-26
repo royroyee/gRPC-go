@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "github.com/royroyee/gRPC-go/gRPC-server/protos/helloworld"
+	pb "github.com/royroyee/gRPC-go/ex1/gRPC-server/protos/helloworld"
 	"google.golang.org/grpc"
 	"log"
 	"net"
