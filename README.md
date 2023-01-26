@@ -24,7 +24,7 @@ to be updated linux (ubuntu)
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
-### Define .proto ( ex) chat.proto )
+### Define .proto ( ex1 -> helloword.proto )
 ```
 
 syntax = "proto3";
