@@ -2,6 +2,7 @@
 gRPC example with Golang 
 
 ## Reference
+- https://github.com/dojinkimm/go-grpc-example
 - https://alnova2.tistory.com/1373
 
 ---
