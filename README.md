@@ -3,6 +3,7 @@ gRPC example with Golang
 
 ## Reference
 - https://grpc.io/docs/languages/go/
+- https://github.com/grpc/grpc-go
 - https://github.com/dojinkimm/go-grpc-example
 
 ---
