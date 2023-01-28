@@ -1,5 +1,5 @@
-## Example 3 : Server to server communication (gRPC Server)
----
+# Example 3 : Server to server communication (gRPC Server)
+
 
 > Example 3 deals with the communication between the User service in Example 2 and the Post service (microservice architecture)
 
