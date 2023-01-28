@@ -2,8 +2,8 @@
 gRPC example with Golang 
 
 ## Reference
+- https://grpc.io/docs/languages/go/
 - https://github.com/dojinkimm/go-grpc-example
-- https://alnova2.tistory.com/1373
 
 ---
 #### [ex1(simple example)](https://github.com/royroyee/gRPC-go/tree/master/ex1)
