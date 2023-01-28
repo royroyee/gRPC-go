@@ -11,7 +11,7 @@ gRPC example with Golang
 
 ---
 
-## Basic(ex1)
+## Tutorial(ex2)
 
 
 ### Install Protocol Buffer (for mac (local))
