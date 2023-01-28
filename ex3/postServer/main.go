@@ -16,7 +16,7 @@ const portNumber = "9001"
 type postServer struct {
 	postpb.PostServer
 
-	userCli userpb.UserClient
+	userCli userpb.UserClient // to use User Service
 }
 
 // ListPostsByUserId returns post messages by user_id
@@ -74,10 +74,10 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 
-	userCli := client.GetUserClient("localhost:9000")
+	userCli := client.GetUserClient("localhost:9000") // to connect User gRPC server
 	grpcServer := grpc.NewServer()
 	postpb.RegisterPostServer(grpcServer, &postServer{
-		userCli: userCli,
+		userCli: userCli, // to connect User gRPC server
 	})
 
 	log.Printf("start gRPC server on %s port", portNumber)

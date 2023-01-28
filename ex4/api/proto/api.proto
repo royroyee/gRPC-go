@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+// Declaration to prevent naming conflicts with other projects
+package api;
+
+// Path to create pb file
+option go_package = "ex4/api/proto";
+
+service Api {
+  rpc GetHello(Request) returns (Response) {}
+}
+
+message Request {
+  string name = 1;
+}
+
+message Response {
+  string message = 1;
+}
+
