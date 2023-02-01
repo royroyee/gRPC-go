@@ -176,3 +176,5 @@ func GetUserClient(serviceHost string) userpb.UserClient {
 - grpc.Dial() : grpc-go's function, Dial creates a client connection to the given target.
   - WithInsecure() : WithInsecure is an option to disable transport security 
   - WithBlock() : WithBlock is an option to block until a connection is established. If the connection does not need to be established immediately, you can remove this option. Without this option, the default will result in connection in the background.
+  - grpc.WithTransportCredentials(insecure.NewCredentials())
+  
