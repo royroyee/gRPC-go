@@ -26,6 +26,7 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	defer cancel()
 
+	// gRPC 메서드 호출
 	reply, err := c.GetHello(ctx, &pb.Request{Name: name})
 
 	// call GetHello

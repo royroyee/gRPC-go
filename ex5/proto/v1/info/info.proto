@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package v1;
+
+option go_package = "proto/v1";
+
+service Route{
+  rpc GetInfo(Content) returns (Content) {} // Unary RPC
+
+  rpc ListInfo(Content) returns (stream Content) {} // Stream RPC
+}
+
+message Content {
+  string message = 1;
+}
