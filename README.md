@@ -9,6 +9,7 @@ gRPC example with Golang
 ---
 #### [ex1(simple example)](https://github.com/royroyee/gRPC-go/tree/master/ex1)
 #### [ex2(simple tutorial)](https://github.com/royroyee/gRPC-go/tree/master/ex2)
+#### [ex3(server to server communiction)](https://github.com/royroyee/gRPC-go/tree/master/ex3)
 
 ---
 
